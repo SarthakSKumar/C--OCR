@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Aadhaar OCR";
+}
+
+<h2>Upload Aadhaar Card Image</h2>
+
+<form method="post" enctype="multipart/form-data" onsubmit="showLoading()">
+    <input type="file" name="aadhaarImage" accept="image/*" required onchange="previewImage(event)" />
+    <button type="submit">Upload & Extract</button>
+</form>
+
+<!-- Image Preview -->
+<img id="imagePreview" src="#" alt="Image Preview" style="display:none;" width="100px" height="100px" />
+
+<!-- Loading message -->
+<div id="loading" style="display:none;">Processing, please wait...</div>
+
+@if (ViewBag.ProcessingMessage != null)
+{
+    <p>@ViewBag.ProcessingMessage</p>
+}
+
+@if (ViewBag.OCRResult != null)
+{
+    <h3>Extracted Details:</h3>
+    <pre>@ViewBag.OCRResult</pre>
+}
+
+<script>
+    function showLoading() {
+        document.getElementById('loading').style.display = 'block';
+    }
+
+    function previewImage(event) {
+        var reader = new FileReader();
+        reader.onload = function() {
+            var output = document.getElementById('imagePreview');
+            output.src = reader.result;
+            output.style.display = 'block';
+        };
+        reader.readAsDataURL(event.target.files[0]);
+    }
+</script>
