@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ocrkyc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+218fd8c050fe0abe1452e0e0ea2ba661fe72ba95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28d7ff2b2ed344ece716f04a299ff4c14f05d23e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ocrkyc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ocrkyc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

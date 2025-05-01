@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OxG5yprkhHBd2MphXpBCip1xqp0f1ZiDVcy4iGvJ2dU=",
+  "Hash": "jhGec65QSPJnTkEwVYDBPdxqz06zZkeWNi50AU0qpv0=",
   "Source": "ocrkyc",
   "BasePath": "_content/ocrkyc",
   "Mode": "Default",
@@ -1195,6 +1195,25 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     },
     {
+      "Identity": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/uploads/aadhaar_extracted.txt",
+      "SourceId": "ocrkyc",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/",
+      "BasePath": "_content/ocrkyc",
+      "RelativePath": "uploads/aadhaar_extracted.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/aadhaar_extracted.txt"
+    },
+    {
       "Identity": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/uploads/Aadhaar-card_fb4_avif.rf.1a8142c222b7d47a3a1798fa4452f8ae.jpg",
       "SourceId": "ocrkyc",
       "SourceType": "Discovered",
@@ -1347,6 +1366,25 @@
       "OriginalItemSpec": "wwwroot/uploads/Real_Aadhar_11_jpg.rf.805417542c89b54b9a0c1e0eb575412e.jpg"
     },
     {
+      "Identity": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/uploads/Real_Aadhar_16_jpg.rf.903aa66df7c727951f34cf354583d476.jpg",
+      "SourceId": "ocrkyc",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/",
+      "BasePath": "_content/ocrkyc",
+      "RelativePath": "uploads/Real_Aadhar_16_jpg.rf.903aa66df7c727951f34cf354583d476.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/Real_Aadhar_16_jpg.rf.903aa66df7c727951f34cf354583d476.jpg"
+    },
+    {
       "Identity": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/uploads/Real_Aadhar_3_jpg.rf.530bf8fa4ac217651daffe5b4fcf5282.jpg",
       "SourceId": "ocrkyc",
       "SourceType": "Discovered",
@@ -1383,6 +1421,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/Real_Aadhar_3_jpg.rf.f7d8866baadc80aac7cca07c46ccf09a.jpg"
+    },
+    {
+      "Identity": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/uploads/Real_Aadhar_4_jpg.rf.74f017ef07fc1fe684a839309819706a.jpg",
+      "SourceId": "ocrkyc",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/",
+      "BasePath": "_content/ocrkyc",
+      "RelativePath": "uploads/Real_Aadhar_4_jpg.rf.74f017ef07fc1fe684a839309819706a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/Real_Aadhar_4_jpg.rf.74f017ef07fc1fe684a839309819706a.jpg"
+    },
+    {
+      "Identity": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/uploads/Real_Aadhar_4_jpg.rf.a569240973fffc2e8cf18db782e6726b.jpg",
+      "SourceId": "ocrkyc",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/",
+      "BasePath": "_content/ocrkyc",
+      "RelativePath": "uploads/Real_Aadhar_4_jpg.rf.a569240973fffc2e8cf18db782e6726b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/Real_Aadhar_4_jpg.rf.a569240973fffc2e8cf18db782e6726b.jpg"
     }
   ]
 }
