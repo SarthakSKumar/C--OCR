@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rachana\\OneDrive\\Desktop\\ocrkyc\\ocrkyc\\ocrkyc\\ocrkyc.csproj": {}
+    "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/ocrkyc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rachana\\OneDrive\\Desktop\\ocrkyc\\ocrkyc\\ocrkyc\\ocrkyc.csproj": {
+    "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/ocrkyc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rachana\\OneDrive\\Desktop\\ocrkyc\\ocrkyc\\ocrkyc\\ocrkyc.csproj",
+        "projectUniqueName": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/ocrkyc.csproj",
         "projectName": "ocrkyc",
-        "projectPath": "C:\\Users\\Rachana\\OneDrive\\Desktop\\ocrkyc\\ocrkyc\\ocrkyc\\ocrkyc.csproj",
-        "packagesPath": "C:\\Users\\Rachana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rachana\\OneDrive\\Desktop\\ocrkyc\\ocrkyc\\ocrkyc\\obj\\",
+        "projectPath": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/ocrkyc.csproj",
+        "packagesPath": "/Users/sarthak.kumar/.nuget/packages/",
+        "outputPath": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Rachana\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/sarthak.kumar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,13 +32,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -53,7 +40,7 @@
           "dependencies": {
             "IronOcr": {
               "target": "Package",
-              "version": "[2024.4.0, )"
+              "version": "[2024.4.6, )"
             },
             "Microsoft.ML.OnnxRuntime": {
               "target": "Package",
@@ -61,11 +48,11 @@
             },
             "OpenCvSharp4": {
               "target": "Package",
-              "version": "[4.10.0.20241108, )"
+              "version": "[4.6.0.20230105, )"
             },
-            "OpenCvSharp4.runtime.win": {
+            "OpenCvSharp4.runtime.osx.10.15-x64": {
               "target": "Package",
-              "version": "[4.10.0.20241108, )"
+              "version": "[4.6.0.20230105, )"
             },
             "ZXing.Net": {
               "target": "Package",
@@ -91,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet@8/8.0.15/libexec/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

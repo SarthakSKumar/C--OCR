@@ -499,10 +499,10 @@
           }
         }
       },
-      "OpenCvSharp4/4.10.0.20241108": {
+      "OpenCvSharp4/4.7.0.20230112": {
         "type": "package",
         "dependencies": {
-          "System.Memory": "4.5.5",
+          "System.Memory": "4.5.4",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
@@ -516,27 +516,12 @@
           }
         }
       },
-      "OpenCvSharp4.runtime.win/4.10.0.20241108": {
+      "OpenCvSharp4.runtime.osx.10.15-x64/4.6.0.20230105": {
         "type": "package",
-        "build": {
-          "build/net5.0/OpenCvSharp4.runtime.win.props": {}
-        },
         "runtimeTargets": {
-          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {
+          "runtimes/osx-x64/native/libOpenCvSharpExtern.dylib": {
             "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x64/native/opencv_videoio_ffmpeg4100_64.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x86/native/OpenCvSharpExtern.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          },
-          "runtimes/win-x86/native/opencv_videoio_ffmpeg4100.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
+            "rid": "osx-x64"
           }
         }
       },
@@ -1288,10 +1273,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "OpenCvSharp4/4.10.0.20241108": {
-      "sha512": "4Lw57NQzOaR0fi9et7GMWB1rpdGzGuNgXHXy45Gltvt8SizQLOGufUonNF9Z+9mo3dcwGC/mL4w5NBgJCqZdHQ==",
+    "OpenCvSharp4/4.7.0.20230112": {
+      "sha512": "FxzT2pB4lwmIFl9lYxisPh4HlegDJVAQTpLcYGMSB8oOEFHEBDiOD26O5D63+nU5kxdiXQV5IF6V/9tJ5eF7Tg==",
       "type": "package",
-      "path": "opencvsharp4/4.10.0.20241108",
+      "path": "opencvsharp4/4.7.0.20230112",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1299,31 +1284,26 @@
         "lib/net48/OpenCvSharp.xml",
         "lib/net6.0/OpenCvSharp.dll",
         "lib/net6.0/OpenCvSharp.xml",
+        "lib/netcoreapp3.1/OpenCvSharp.dll",
+        "lib/netcoreapp3.1/OpenCvSharp.xml",
         "lib/netstandard2.0/OpenCvSharp.dll",
         "lib/netstandard2.0/OpenCvSharp.xml",
         "lib/netstandard2.1/OpenCvSharp.dll",
         "lib/netstandard2.1/OpenCvSharp.xml",
-        "opencvsharp4.4.10.0.20241108.nupkg.sha512",
+        "opencvsharp4.4.7.0.20230112.nupkg.sha512",
         "opencvsharp4.nuspec"
       ]
     },
-    "OpenCvSharp4.runtime.win/4.10.0.20241108": {
-      "sha512": "0ae2dwel83tqKlAs45D3KYncoJHRzj1ArEESa6wz7FS3tYu37JDIb5yoMIZPzlkx3Gx2S1BjUrClfXbBHmVh5g==",
+    "OpenCvSharp4.runtime.osx.10.15-x64/4.6.0.20230105": {
+      "sha512": "71vVmug8J/WIy4N1trM3HvdRtOCeNPTykPNZmy+avxOudTQdujLD3Oi6/F8T1W3nQKX63U4wBvMgGYUrsKRvgA==",
       "type": "package",
-      "path": "opencvsharp4.runtime.win/4.10.0.20241108",
+      "path": "opencvsharp4.runtime.osx.10.15-x64/4.6.0.20230105",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/net48/OpenCvSharp4.runtime.win.props",
-        "build/net5.0/OpenCvSharp4.runtime.win.props",
-        "build/netcoreapp/OpenCvSharp4.runtime.win.props",
-        "build/netstandard/OpenCvSharp4.runtime.win.props",
-        "opencvsharp4.runtime.win.4.10.0.20241108.nupkg.sha512",
-        "opencvsharp4.runtime.win.nuspec",
-        "runtimes/win-x64/native/OpenCvSharpExtern.dll",
-        "runtimes/win-x64/native/opencv_videoio_ffmpeg4100_64.dll",
-        "runtimes/win-x86/native/OpenCvSharpExtern.dll",
-        "runtimes/win-x86/native/opencv_videoio_ffmpeg4100.dll"
+        "opencvsharp4.runtime.osx.10.15-x64.4.6.0.20230105.nupkg.sha512",
+        "opencvsharp4.runtime.osx.10.15-x64.nuspec",
+        "runtimes/osx-x64/native/libOpenCvSharpExtern.dylib"
       ]
     },
     "SixLabors.Fonts/2.0.1": {
@@ -1799,40 +1779,32 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "IronOcr >= 2024.4.0",
+      "IronOcr >= 2024.4.6",
       "Microsoft.ML.OnnxRuntime >= 1.21.0",
-      "OpenCvSharp4 >= 4.10.0.20241108",
-      "OpenCvSharp4.runtime.win >= 4.10.0.20241108",
+      "OpenCvSharp4 >= 4.6.0.20230105",
+      "OpenCvSharp4.runtime.osx.10.15-x64 >= 4.6.0.20230105",
       "ZXing.Net >= 0.16.10"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rachana\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/sarthak.kumar/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rachana\\OneDrive\\Desktop\\ocrkyc\\ocrkyc\\ocrkyc\\ocrkyc.csproj",
+      "projectUniqueName": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/ocrkyc.csproj",
       "projectName": "ocrkyc",
-      "projectPath": "C:\\Users\\Rachana\\OneDrive\\Desktop\\ocrkyc\\ocrkyc\\ocrkyc\\ocrkyc.csproj",
-      "packagesPath": "C:\\Users\\Rachana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rachana\\OneDrive\\Desktop\\ocrkyc\\ocrkyc\\ocrkyc\\obj\\",
+      "projectPath": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/ocrkyc.csproj",
+      "packagesPath": "/Users/sarthak.kumar/.nuget/packages/",
+      "outputPath": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Rachana\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/sarthak.kumar/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1845,13 +1817,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1859,7 +1825,7 @@
         "dependencies": {
           "IronOcr": {
             "target": "Package",
-            "version": "[2024.4.0, )"
+            "version": "[2024.4.6, )"
           },
           "Microsoft.ML.OnnxRuntime": {
             "target": "Package",
@@ -1867,11 +1833,11 @@
           },
           "OpenCvSharp4": {
             "target": "Package",
-            "version": "[4.10.0.20241108, )"
+            "version": "[4.6.0.20230105, )"
           },
-          "OpenCvSharp4.runtime.win": {
+          "OpenCvSharp4.runtime.osx.10.15-x64": {
             "target": "Package",
-            "version": "[4.10.0.20241108, )"
+            "version": "[4.6.0.20230105, )"
           },
           "ZXing.Net": {
             "target": "Package",
@@ -1897,7 +1863,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet@8/8.0.15/libexec/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -1906,8 +1872,8 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ocrkyc depends on IronOcr (>= 2024.4.0) but IronOcr 2024.4.0 was not found. IronOcr 2024.4.6 was resolved instead.",
-      "libraryId": "IronOcr",
+      "message": "ocrkyc depends on OpenCvSharp4 (>= 4.6.0.20230105) but OpenCvSharp4 4.6.0.20230105 was not found. An approximate best match of OpenCvSharp4 4.7.0.20230112 was resolved.",
+      "libraryId": "OpenCvSharp4",
       "targetGraphs": [
         "net8.0"
       ]
