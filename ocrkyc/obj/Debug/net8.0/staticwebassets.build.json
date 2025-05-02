@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jhGec65QSPJnTkEwVYDBPdxqz06zZkeWNi50AU0qpv0=",
+  "Hash": "d9xCAZByN+JnOYOY3YnhTrc4RU5aDY2F6g3Cya7hvx0=",
   "Source": "ocrkyc",
   "BasePath": "_content/ocrkyc",
   "Mode": "Default",
@@ -1385,6 +1385,44 @@
       "OriginalItemSpec": "wwwroot/uploads/Real_Aadhar_16_jpg.rf.903aa66df7c727951f34cf354583d476.jpg"
     },
     {
+      "Identity": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/uploads/Real_Aadhar_20_jpg.rf.1ecf0e19583ae77edcb717cf10641abe.jpg",
+      "SourceId": "ocrkyc",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/",
+      "BasePath": "_content/ocrkyc",
+      "RelativePath": "uploads/Real_Aadhar_20_jpg.rf.1ecf0e19583ae77edcb717cf10641abe.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/Real_Aadhar_20_jpg.rf.1ecf0e19583ae77edcb717cf10641abe.jpg"
+    },
+    {
+      "Identity": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/uploads/Real_Aadhar_24_jpg.rf.5b2c872c3e85037cc2472f4df53d7b26.jpg",
+      "SourceId": "ocrkyc",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/",
+      "BasePath": "_content/ocrkyc",
+      "RelativePath": "uploads/Real_Aadhar_24_jpg.rf.5b2c872c3e85037cc2472f4df53d7b26.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/Real_Aadhar_24_jpg.rf.5b2c872c3e85037cc2472f4df53d7b26.jpg"
+    },
+    {
       "Identity": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/uploads/Real_Aadhar_3_jpg.rf.530bf8fa4ac217651daffe5b4fcf5282.jpg",
       "SourceId": "ocrkyc",
       "SourceType": "Discovered",
@@ -1459,6 +1497,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/Real_Aadhar_4_jpg.rf.a569240973fffc2e8cf18db782e6726b.jpg"
+    },
+    {
+      "Identity": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/uploads/Real_Aadhar_9_jpg.rf.a8264680920c0ac2d56622132727df32.jpg",
+      "SourceId": "ocrkyc",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sarthak.kumar/Documents/Workspace/C--OCR/ocrkyc/wwwroot/",
+      "BasePath": "_content/ocrkyc",
+      "RelativePath": "uploads/Real_Aadhar_9_jpg.rf.a8264680920c0ac2d56622132727df32.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/Real_Aadhar_9_jpg.rf.a8264680920c0ac2d56622132727df32.jpg"
     }
   ]
 }
