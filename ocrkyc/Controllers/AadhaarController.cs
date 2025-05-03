@@ -10,9 +10,11 @@ namespace ocrkyc.Controllers
     {
         [HttpPost]
         public async Task<IActionResult> Index(IFormFile aadhaarImage)
+        
         {
             if (aadhaarImage == null || aadhaarImage.Length == 0)
                 return View();
+            ViewBag.ProcessingMessage = "";
 
             var uploadsDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
             Directory.CreateDirectory(uploadsDir);
@@ -28,6 +30,8 @@ namespace ocrkyc.Controllers
 
             var extractedData = AadhaarOCR.ExtractText(filePath);
             ViewBag.OCRResult = extractedData;
+            ViewBag.ProcessingMessage = "Processed successfully!";
+
 
             return View();
         }
